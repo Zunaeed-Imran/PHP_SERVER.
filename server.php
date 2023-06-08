@@ -3,7 +3,7 @@
 // the entries in this array are created by the web server
 // show nearly everything you need to know about the current web page env.
 
-foreach($_SERVER as $key => $valu){
+foreach($_SERVER as $key => $value){
   echo "{$key} = {$value} </br>"; 
 }
 
